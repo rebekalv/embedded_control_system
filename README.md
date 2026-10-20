@@ -20,6 +20,8 @@ An electromagnet hangs from a frame, pointing downward. A distance sensor (like 
 • The Cybernetic Challenge: Magnetic force follows the inverse-square law, making this highly non-linear. As the bead gets closer, the pull gets exponentially stronger. You will use Simulink to linearize the plant around an equilibrium point, or implement Gain Scheduling (where your control parameters change depending on how far away the bead is).
 • Why it’s great for learning: The hardware is incredibly simple—just an electromagnet, a transistor/MOSFET driver, a sensor, and a steel ball. However, the control theory required to keep it from snapping to the magnet or falling to the floor is highly advanced.
 
+![image](maglev.png)
+
 4. A Self-Balancing Cubli (The Reaction Wheel Cube)
 
 A small 3D-printed cube houses a motor spinning a heavy metal flywheel. By precisely controlling the speed and braking of that wheel, the cube can jump up, balance precariously on one of its edges or corners, and resist being pushed over.
