@@ -26,6 +26,15 @@ A small 3D-printed cube houses a motor spinning a heavy metal flywheel. By preci
 • The Cybernetic Challenge: This relies heavily on conservation of angular momentum. You will use an IMU to track the cube's tilt angle and feed it into a state-space controller that converts angular error into exact motor torque commands.
 • Why it’s great for learning: It looks like magic when it works, making it an incredibly rewarding personal project. It heavily exercises your ability to read sensors via I2C/SPI and output high-speed PWM commands from your Microchip hardware blocks.
 
+<!--
+Source - https://stackoverflow.com/q/41604263
+Posted by zjffdu, modified by community. See post 'Timeline' for change history
+Retrieved 2026-10-20, License - CC BY-SA 4.0
+-->
+
+![image](cubli.png)
+
+
 Strategic Tips for a Beginner
 
 1. Start in "Desktop Simulation Only": Do not touch hardware first. Build the mathematical model of your physical system entirely out of standard Simulink blocks (Integrators, Gains, Transfer Functions). Get your controller working flawlessly on your computer screen.
