@@ -14,6 +14,9 @@ A small motorized cart runs along a linear rail, balancing a free-swinging stick
 • The Cybernetic Challenge: This is a non-linear, inherently unstable system. To solve it, you will need to use a Kalman Filter in Simulink to combine data from an IMU (gyroscope/accelerometer) on the stick and an encoder on the cart's motor. You will use pole-placement or LQR to keep it stable.
 • Why it’s great for learning: It is the ultimate rite of passage for embedded control engineers. It forces you to deal with hard real-time execution constraints because if your MCU loop drops even a few milliseconds behind, the pendulum crashes.
 
+<img src="pendulum_cart_figure.png" alt="pendulum" width="200"/>
+
+
 3. A Magnetic Levitation System (MagLev Bead)
 
 An electromagnet hangs from a frame, pointing downward. A distance sensor (like an infrared or time-of-flight sensor) sits right below it. The goal is to vary the current to the electromagnet so perfectly that a steel bearing floats completely untouched in mid-air.
