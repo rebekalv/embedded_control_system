@@ -16,6 +16,7 @@ A small motorized cart runs along a linear rail, balancing a free-swinging stick
 2. A Magnetic Levitation System (MagLev Bead)
 
 Link to "purely electrical" project, not using microcontroller (simulink?): http://uzzors2k.com/index.php?page=magneticlevitation
+Link to another project using pcb: https://www.youtube.com/watch?v=cSmC9j-Mq4M
 
 An electromagnet hangs from a frame, pointing downward. A distance sensor (like an infrared or time-of-flight sensor) sits right below it. The goal is to vary the current to the electromagnet so perfectly that a steel bearing floats completely untouched in mid-air.
 • The Cybernetic Challenge: Magnetic force follows the inverse-square law, making this highly non-linear. As the bead gets closer, the pull gets exponentially stronger. You will use Simulink to linearize the plant around an equilibrium point, or implement Gain Scheduling (where your control parameters change depending on how far away the bead is).
