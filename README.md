@@ -4,6 +4,8 @@ Here are four project ideas that strike the perfect balance: they are mathematic
 
 1. An Inverted Pendulum on a Cart (The Control Classic)
 
+Link to simulink project: https://se.mathworks.com/help/control/ug/control-of-an-inverted-pendulum-on-a-cart.html
+
 A small motorized cart runs along a linear rail, balancing a free-swinging stick vertically on top of it. Your microcontroller must read the angle of the stick and the position of the cart, moving the cart back and forth to keep the stick upright.
 • The Cybernetic Challenge: This is a non-linear, inherently unstable system. To solve it, you will need to use a Kalman Filter in Simulink to combine data from an IMU (gyroscope/accelerometer) on the stick and an encoder on the cart's motor. You will use pole-placement or LQR to keep it stable.
 • Why it’s great for learning: It is the ultimate rite of passage for embedded control engineers. It forces you to deal with hard real-time execution constraints because if your MCU loop drops even a few milliseconds behind, the pendulum crashes.
